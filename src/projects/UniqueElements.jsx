@@ -1,6 +1,5 @@
 import React from "react";
-
-let arrayElements = [1, 5, 2, 6, 1, 2, 5, 6, 3, 7, 4, 1, 7, 4, 5, 6, 2, 1];
+import { arrayElements } from "./fixtures";
 
 class UniqueElements extends React.Component {
   constructor(props) {
